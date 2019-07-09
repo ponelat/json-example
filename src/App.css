@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+body,* {
+  box-sizing: border-box;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
@@ -17,6 +21,16 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-header .error {
+  font-size: 15px;
+  text-align: left;
+  padding: 5px;
+  background: white;
+  color: red;
+  font-family: monospace;
+  width: 500px;
 }
 
 .App-link {
